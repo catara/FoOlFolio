@@ -212,6 +212,37 @@ td { vertical-align: top; }
    ========================================================================== */
 
 
+.ninesixzero {
+	width:960px;
+	margin:0 auto;
+}
+
+article.home {
+	
+}
+
+article.home > header {
+	text-align:center;
+}
+
+article.home aside {
+	float:right;
+	width:320px;
+}
+
+article.home > article.showcase {
+	width: 640px;
+	margin-top:50px;
+}
+
+article.home > article.showcase header {
+	text-decoration:underline;
+	text-align:center;
+}
+
+article.home > article.showcase section.case {
+
+}
 
 
 
