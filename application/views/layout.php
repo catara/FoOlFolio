@@ -67,7 +67,7 @@
 		<script defer src="<?php echo site_url() ?>assets/theme/js/script.js?v=<?php echo FOOLFOLIO_VERSION ?>"></script>
 
 		<script>
-			window._gaq = [];
+			window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
 			Modernizr.load({
 				load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
 			});
